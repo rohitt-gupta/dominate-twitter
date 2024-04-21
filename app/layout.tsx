@@ -13,13 +13,13 @@ export const metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en" className={GeistSans.className}>
-      <body className="bg-background text-foreground">
-        <main className="min-h-screen flex flex-col items-center">
+      <body className="text-white bg-foreground">
+        <main className="flex flex-col items-center min-h-screen">
           {children}
         </main>
       </body>
