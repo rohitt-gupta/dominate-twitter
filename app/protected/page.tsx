@@ -21,7 +21,7 @@ export default async function ProtectedPage() {
 
         <nav className="flex justify-center w-full h-16 border-b border-b-foreground/10">
           <div className="flex items-center justify-between w-full max-w-4xl p-3 text-sm">
-            DOminateX
+            DominateX
             <AuthButton />
           </div>
         </nav>
